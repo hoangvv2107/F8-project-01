@@ -24,10 +24,11 @@ a {
   display: inline-block;
   text-align: center;
   padding: 0 10px;
-  border-radius: 8px;
   background: #0f1b4c;
   color: #fff;
-  font-size: 1.4rem;
+  border-radius: 12px;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 /* ==============header============== */
@@ -67,7 +68,8 @@ a {
   min-width: 98px;
   height: 40px;
   line-height: 40px;
-  font-weight: 500;
+  font-size: 1.4rem;
+  border-radius: 8px;
 }
 /* hero */
 
@@ -101,8 +103,6 @@ a {
   margin-top: 30px;
   min-width: 170px;
   line-height: 50px;
-  font-size: 13px;
-  font-weight: 500;
 }
 .hero-img {
   position: absolute;
@@ -214,14 +214,14 @@ a {
   display: flex;
   gap: 8px;
 }
+.guides-btn-wrapper{
+  display: flex;
+  justify-content: center;
+}
 .guides-btn {
   margin-left: auto;
   margin-right: auto;
-  display: block;
   margin-top: 50px;
   min-width: 170px;
   line-height: 50px;
-  border-radius: 12px;
-  font-size: 1.3rem;
-  font-weight: 500;
 }
