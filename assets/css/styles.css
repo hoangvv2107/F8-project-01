@@ -34,6 +34,7 @@ a {
 .line-clamp {
   display: -webkit-box;
   -webkit-line-clamp: var(--line-clamp, 2);
+  line-clamp: var(--line-clamp, 2);
   overflow: hidden;
   -webkit-box-orient: vertical;
 }
@@ -423,7 +424,7 @@ a {
   gap: 16px 14px;
   margin-top: 25px;
 }
-.stats .group-avtar {
+.stats .group-avatar {
   display: flex;
 }
 .stats .box-avatar .avatar {
@@ -468,25 +469,25 @@ a {
   display: flex;
   position: relative;
 }
-.subcribe-left {
+.subscribe-left {
   padding: 110px 80px;
   width: 670px;
   max-width: 100%;
 }
-.subcribe-left .title {
+.subscribe-left .title {
   color: #fff;
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 1;
 }
-.subcribe-left .desc {
+.subscribe-left .desc {
   margin-top: 15px;
   color: #fff;
   font-family: Poppins;
   font-weight: 400;
   line-height: 187.5%;
 }
-.subcribe-left .subscribe-btn {
+.subscribe-left .subscribe-btn {
   width: 151px;
   line-height: 50px;
   background: #fff;
