@@ -9,6 +9,7 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: normal;
+  background: #fff;
 }
 a {
   text-decoration: none;
@@ -30,7 +31,12 @@ a {
   font-size: 1.3rem;
   font-weight: 500;
 }
-
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp);
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
 /* ==============header============== */
 .header {
   background: #e6f0ff;
@@ -214,7 +220,7 @@ a {
   display: flex;
   gap: 8px;
 }
-.guides-btn-wrapper{
+.guides-btn-wrapper {
   display: flex;
   justify-content: center;
 }
@@ -224,4 +230,89 @@ a {
   margin-top: 50px;
   min-width: 170px;
   line-height: 50px;
+}
+/* featured */
+.featured {
+  margin-top: 120px;
+  padding: 110px 0;
+  background: #f5fafe;
+}
+.featured .title {
+  color: #000339;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.featured .desc {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.featured .desc .text {
+  color: #5a6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 187.5%;
+}
+.featured .desc .link {
+  color: #0689ff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.featured .desc .link .arrow-icon {
+  margin-left: 8px;
+}
+
+.featured-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 68px;
+}
+.featured-inner {
+  border-radius: 12px;
+  background: #fff;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.featured-inner .thumb {
+  display: block;
+  width: 100%;
+  height: 227px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.featured-inner .body {
+  flex: 1;
+  padding: 17px 20px 24px;
+  display: flex;
+  flex-direction: column;
+}
+.featured-inner .body .sub-title {
+  color: #000339;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.featured-inner .body .text {
+  margin-top: 11px;
+  color: #a3a6ab;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 21px;
+}
+.featured-inner .body .info {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.featured-inner .body .info .combo {
+  display: flex;
+  align-items: center;
+}
+.featured-inner .body .info span {
+  margin-left: 8px;
 }
