@@ -446,3 +446,45 @@ a {
   font-size: 1.8rem;
   font-weight: 500;
 }
+/* subscribe */
+.subscribe {
+  margin-top: 51px;
+  padding-top: 39px;
+}
+.subscribe .container {
+  border-radius: 20px;
+  background: #063183;
+  display: flex;
+  position: relative;
+}
+.subcribe-left {
+  padding: 110px 80px;
+  width: 670px;
+  max-width: 100%;
+}
+.subcribe-left .title {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.subcribe-left .desc {
+  margin-top: 15px;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 187.5%;
+}
+.subcribe-left .subscribe-btn {
+  width: 151px;
+  line-height: 50px;
+  background: #fff;
+  color: #002366;
+  margin-top: 34px;
+}
+.subscribe-img {
+  position: absolute;
+  bottom: 0;
+  left: 670px;
+}
+/* ==============footer============== */
