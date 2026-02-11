@@ -158,6 +158,8 @@ a {
   height: 91px;
   border-radius: 12px;
   background: #fff;
+}
+.clients-active:hover {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 /* guides */
@@ -530,6 +532,7 @@ a {
   margin-top: 81px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .footer .copyright {
   color: #c2c2c2;
